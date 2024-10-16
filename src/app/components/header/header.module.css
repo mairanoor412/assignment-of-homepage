@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+
+
+.header {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color:white;
+    font-size: 1rem;
+    font-family:  "Urbanist", sans-serif;
+    letter-spacing: .1rem;
+    width: 100%;
+    position: fixed;
+}
+
+.container {
+    max-width: 70%;
+    margin: auto;
+    height: 70px;
+}
+
+.navgrid {
+    display: grid;
+    grid-template-columns: .5fr 1fr;
+    align-items: center;
+    height: 70px;
+    padding: 0 3.2rem;
+} 
+
+.nav_logo {
+    color: red;
+    font-weight: 500;
+    font-size: 30px;
+    font-family: "Italianno", cursive;
+}
+.nav_logo::first-letter {
+    color:red;
+    font-size: 60px;
+    
+}
+
+.nav .ul {
+    display: flex;
+    justify-content: flex-end;
+    gap:3.2rem
+}
+
+.li {
+    list-style: none;
+}
+
+.navlink:hover {
+    color: red;
+    text-decoration: underline;
+    font-weight: 700;
+    
+}
