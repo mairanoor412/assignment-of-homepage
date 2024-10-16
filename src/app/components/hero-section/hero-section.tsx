@@ -14,10 +14,10 @@ import Link from "next/link";
             
             {/* hero section left side */}
             <div className={style.hero_section_data}>
-              <p className={style.hero_top_data}> Hey i'm <span className={style.name}>Maira Naeem</span></p>
+              <p className={style.hero_top_data}> Hey iam <span className={style.name}>Maira Naeem</span></p>
               <h1 className={style.hero_heading}> FRONTEND DEVELOPER </h1>
               <p className={style.hero_para}> 
-                Hey i'm frontend developer from pakistan, dedicated to delivering beautiful, functional and user-friendly websites that exceed your expectations.
+                Hey iam frontend developer from pakistan, dedicated to delivering beautiful, functional and user-friendly websites that exceed your expectations.
               </p>
 
                {/* Button */}
