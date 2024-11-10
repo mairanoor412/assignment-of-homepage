@@ -3,7 +3,7 @@
 .footer {
     background-color: rgba(0, 0, 0, 0.952);
     color:white;
-    font-size: 18px;
+    font-size: 14px;
     letter-spacing: 1px;
     word-spacing: 1.5px;
     
@@ -22,8 +22,7 @@
 
 .color {
     color: red;
-    font-family: "Italianno", cursive;
-    font-size: 25px;
+    font-size: 15px;
 }
 
 .red {
