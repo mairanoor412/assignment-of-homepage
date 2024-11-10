@@ -18,15 +18,12 @@ import style from "./header.module.css"
                </li>
 
                <li className={style.li}>
-                <Link href="/about" target="_blank" className={style.navlink}> About</Link>
+                <Link href="#about" target="_blank" className={style.navlink}> About</Link>
                </li>
 
+              
                <li className={style.li}>
-                <Link href="/service" target="_blank" className={style.navlink}> Service </Link>
-               </li>
-
-               <li className={style.li}>
-                <Link href="/contact" target="_blank" className={style.navlink}> Contact </Link>
+                <Link href="#contact" target="_blank" className={style.navlink}> Contact </Link>
                </li>
             </ul>
             </nav>

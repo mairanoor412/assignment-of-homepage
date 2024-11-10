@@ -21,7 +21,7 @@ import Link from "next/link";
               </p>
 
                {/* Button */}
-              <Link href="/about" target="_blank">
+              <Link href="#about" target="_blank">
               <button className={style.btn}> More About Me </button>
               </Link>
               
